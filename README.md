@@ -2,7 +2,7 @@
 
 A from-scratch NumPy implementation of biologically plausible learning, comparing standard backpropagation against a neuromodulated Hebbian learning rule on MNIST digit classification.
 
-Based on: **"Final Project Report: Neuromodulated Hebbian Learning"** by Abubakr Nazriev (2026).
+**"Final Project Report: Neuromodulated Hebbian Learning"** by Abubakr Nazriev (2026). The original study is included in the repository.
 
 ## Overview
 
@@ -135,7 +135,8 @@ Neuromodulated-Neural-Network/
 ├── main.py               # Complete implementation (all stages + plotting)
 ├── requirements.txt      # Python dependencies (numpy, matplotlib)
 ├── README.md             # This file
-├── Final_Project____Bi1C.pdf  # Original paper
+├── Final_Project____Bi1C.pdf  # Project Report
+├── fncom-11-00054.pdf # Original Paper
 ├── data/                 # MNIST data (auto-downloaded on first run)
 │   ├── train-images-idx3-ubyte.gz
 │   ├── train-labels-idx1-ubyte.gz
