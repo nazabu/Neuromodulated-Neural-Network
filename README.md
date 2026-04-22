@@ -106,7 +106,7 @@ Weights are initialized using **He initialization** (`sqrt(2/n_inputs)`) to prod
 
 ```bash
 # Clone or navigate to the project directory
-cd nn_project
+cd Neuromodulated-Neural-Network
 
 # Install dependencies
 pip install -r requirements.txt
@@ -131,7 +131,7 @@ Total runtime: approximately **6-12 minutes** on a modern CPU.
 ## Project Structure
 
 ```
-nn_project/
+Neuromodulated-Neural-Network/
 ├── main.py               # Complete implementation (all stages + plotting)
 ├── requirements.txt      # Python dependencies (numpy, matplotlib)
 ├── README.md             # This file
