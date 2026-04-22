@@ -10,7 +10,7 @@ Backpropagation is the workhorse of modern deep learning, but it is biologically
 
 > **Can a local Hebbian learning rule, modulated by simulated neurotransmitter signals (dopamine and acetylcholine), achieve competitive classification accuracy without backpropagation?**
 
-The answer is **yes** &mdash; the neuromodulated Hebbian network reaches ~85-90% test accuracy on MNIST, compared to ~97% for the backpropagation baseline &mdash; demonstrating that biologically plausible local learning rules can produce useful representations without global error gradients.
+The answer is **yes**. The neuromodulated Hebbian network reaches ~85-90% test accuracy on MNIST, compared to ~97% for the backpropagation baseline, demonstrating that biologically plausible local learning rules can produce useful representations without global error gradients.
 
 ### Architecture: Standard MLP (Backpropagation)
 
@@ -136,7 +136,7 @@ Neuromodulated-Neural-Network/
 ├── requirements.txt      # Python dependencies (numpy, matplotlib)
 ├── README.md             # This file
 ├── Final_Project____Bi1C.pdf  # Project Report
-├── fncom-11-00054.pdf # Original Paper
+├── original_study.pdf # Original Paper
 ├── data/                 # MNIST data (auto-downloaded on first run)
 │   ├── train-images-idx3-ubyte.gz
 │   ├── train-labels-idx1-ubyte.gz
